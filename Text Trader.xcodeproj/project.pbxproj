@@ -20,11 +20,6 @@
 		74201A9B24D4C465002D2677 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 74201A9A24D4C465002D2677 /* amplifyconfiguration.json */; };
 		74201A9D24D4C46C002D2677 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 74201A9C24D4C46C002D2677 /* awsconfiguration.json */; };
 		FA97AF477C0346067B47F3CB /* Pods_Text_Trader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C893BFBBD57B0976C9E39D /* Pods_Text_Trader.framework */; };
-		D1CE8E57F49146698E8AE559 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF8547D170C4EDF8BEE64FA /* AmplifyModels.swift */; };
-		0C1E706DE7844A7D8822BB0F /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84E4EE14CA4783AFDF30BA /* Note.swift */; };
-		4524A93766CE41C2A7B25FCF /* Note+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F437AA1E14ED183BE5D67 /* Note+Schema.swift */; };
-		BF7294DB3D4749E6908920E5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE06C8251F84D4587C55C4F /* Task.swift */; };
-		BCCFE475FDE54B3597BE5640 /* Task+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5158F043A145DA9ACF89AF /* Task+Schema.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,13 +65,6 @@
 		98C893BFBBD57B0976C9E39D /* Pods_Text_Trader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text_Trader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB80FD18B5CD6129ED4AFFE6 /* Pods-Text TraderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text TraderTests.debug.xcconfig"; path = "Target Support Files/Pods-Text TraderTests/Pods-Text TraderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8E8740164DD12859E3021A8 /* Pods-Text TraderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text TraderTests.release.xcconfig"; path = "Target Support Files/Pods-Text TraderTests/Pods-Text TraderTests.release.xcconfig"; sourceTree = "<group>"; };
-		6A0BB11302424E0089873C52 /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
-		16E7B9F4FAA74FEB9B986F52 /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
-		7CF8547D170C4EDF8BEE64FA /* AmplifyModels.swift */ = {isa = PBXFileReference; name = "AmplifyModels.swift"; path = "amplify/generated/models/AmplifyModels.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		7B84E4EE14CA4783AFDF30BA /* Note.swift */ = {isa = PBXFileReference; name = "Note.swift"; path = "amplify/generated/models/Note.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		5E6F437AA1E14ED183BE5D67 /* Note+Schema.swift */ = {isa = PBXFileReference; name = "Note+Schema.swift"; path = "amplify/generated/models/Note+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		0FE06C8251F84D4587C55C4F /* Task.swift */ = {isa = PBXFileReference; name = "Task.swift"; path = "amplify/generated/models/Task.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
-		3F5158F043A145DA9ACF89AF /* Task+Schema.swift */ = {isa = PBXFileReference; name = "Task+Schema.swift"; path = "amplify/generated/models/Task+Schema.swift"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.swift; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +108,6 @@
 		3F8A68D92458B04C00119DBB = {
 			isa = PBXGroup;
 			children = (
-				80311DA3750B4F0697742F8A /* AmplifyModels */,
-				4284F2DACFA14922B820DDBA /* AmplifyConfig */,
 				3F8A68E42458B04C00119DBB /* Text Trader */,
 				3F8A68FB2458B04C00119DBB /* Text TraderTests */,
 				3F8A69062458B04C00119DBB /* Text TraderUITests */,
@@ -196,37 +182,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		4284F2DACFA14922B820DDBA /* AmplifyConfig */ = {
-			isa = PBXGroup;
-			children = (
-				6A0BB11302424E0089873C52 /* amplifytools.xcconfig */,
-				16E7B9F4FAA74FEB9B986F52 /* schema.graphql */,
-			);
-			name = AmplifyConfig;
-			path = .;
-			sourceTree = "<group>";
-		};
-		221A74F4E41E4213AE8588FE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			path = undefined;
-			sourceTree = "<group>";
-		};
-		80311DA3750B4F0697742F8A /* AmplifyModels */ = {
-			isa = PBXGroup;
-			children = (
-				7CF8547D170C4EDF8BEE64FA /* AmplifyModels.swift */,
-				7B84E4EE14CA4783AFDF30BA /* Note.swift */,
-				5E6F437AA1E14ED183BE5D67 /* Note+Schema.swift */,
-				0FE06C8251F84D4587C55C4F /* Task.swift */,
-				3F5158F043A145DA9ACF89AF /* Task+Schema.swift */,
-			);
-			name = AmplifyModels;
-			path = .;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,7 +190,6 @@
 			buildConfigurationList = 3F8A690C2458B04C00119DBB /* Build configuration list for PBXNativeTarget "Text Trader" */;
 			buildPhases = (
 				B2F74CF797069D173BE8229C /* [CP] Check Pods Manifest.lock */,
-				3FCBAD5024E1C1C0005559EF /* Run Amplify Tools */,
 				3F8A68DE2458B04C00119DBB /* Sources */,
 				3F8A68DF2458B04C00119DBB /* Frameworks */,
 				3F8A68E02458B04C00119DBB /* Resources */,
@@ -401,24 +355,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3FCBAD5024E1C1C0005559EF /* Run Amplify Tools */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Amplify Tools";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/AmplifyTools/amplify-tools.sh\"\n";
-		};
 		901528B6443355896F797DAC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,11 +426,6 @@
 				3F8A68E62458B04C00119DBB /* AppDelegate.swift in Sources */,
 				3F8A68E82458B04C00119DBB /* SceneDelegate.swift in Sources */,
 				3F8A68EA2458B04C00119DBB /* ContentView.swift in Sources */,
-				D1CE8E57F49146698E8AE559 /* AmplifyModels.swift in Sources */,
-				0C1E706DE7844A7D8822BB0F /* Note.swift in Sources */,
-				4524A93766CE41C2A7B25FCF /* Note+Schema.swift in Sources */,
-				BF7294DB3D4749E6908920E5 /* Task.swift in Sources */,
-				BCCFE475FDE54B3597BE5640 /* Task+Schema.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

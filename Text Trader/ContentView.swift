@@ -10,7 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Text Trader")
+        VStack(spacing:20){
+            Text("Text Trader")
+                .font(.largeTitle)
+        }
     }
 }
 

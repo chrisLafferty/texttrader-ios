@@ -10,7 +10,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Text Trader")
+        VStack(spacing:20){
+            Text("Text Trader").font(.largeTitle)
+            
+            Button(action:{}){
+                Text("Login")
+                    .fontWeight(.thin)
+                    .padding()
+                    .overlay(RoundedRectangle(cornerRadius: 25)
+                        .stroke(Color.blue, lineWidth: 1))
+            }
+            
+            Button(action:{}){
+                Text("Dont have an account? Create one here!")
+            }
+        }
     }
 }
 
